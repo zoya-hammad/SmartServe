@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IST Cafeteria</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/images/cutlery.png</normaloff>:/images/cutlery.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>70</y>
+      <width>471</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+  color: #00008B; /* Gray text color with some transparency */
+  font-family: Impact;
+  font-size: 80px;
+  background-color: transparent;
+/*  border: 1px solid pink; /* Add a thin pink border around the text */
+  padding: 2px; /* Add slight padding to create the halo effect */
+z-index=-1;
+}</string>
+    </property>
+    <property name="text">
+     <string>IST CAFTERIA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>471</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+  color: blue;
+  font-family: Impact;
+  font-size: 80px;
+  text-shadow: none; /* Remove existing text shadow */
+  background-color: transparent;
+  padding: 3px; /* Increase padding for better halo visibility */
+}</string>
+    </property>
+    <property name="text">
+     <string>IST CAFTERIA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>110</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/images/cutlery.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="adminButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>370</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>sans-serif</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCommandLinkButton {
+  background-color: #ffffff; /* Light gray */
+  border: 1px solid white;
+  color: black;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+}
+
+QCommandLinkButton:hover {
+  background-color: #99ccff; /* Light blue on hover */
+  text-decoration: none;
+}
+
+QCommandLinkButton:pressed {
+  background-color: #666666; /* Slightly darker on press */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>                    ADMIN</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img.qrc">
+      <normaloff>:/images/network.png</normaloff>:/images/network.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>70</y>
+      <width>471</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+  color: rgba(255, 255, 255, 0.9); /* Gray text color with some transparency */
+  font-family: Impact;
+  font-size: 80px;
+  background-color: transparent;
+/*  border: 1px solid pink; /* Add a thin pink border around the text */
+  padding: 2px; /* Add slight padding to create the halo effect */
+z-index=-1;
+}</string>
+    </property>
+    <property name="text">
+     <string>IST CAFTERIA</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="userButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>370</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCommandLinkButton {
+  background-color: #ffffff; /* Light gray */
+  border: 1px solid white;
+  color: black;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+}
+
+QCommandLinkButton:hover {
+  background-color: #99ccff; /* Light blue on hover */
+  text-decoration: none;
+}
+
+QCommandLinkButton:pressed {
+  background-color: #666666; /* Slightly darker on press */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>                 USER</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img.qrc">
+      <normaloff>:/images/user.png</normaloff>:/images/user.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>adminButton</zorder>
+   <zorder>userButton</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

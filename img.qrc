@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/mess_icon3.jpg</file>
+        <file>images/network.png</file>
+        <file>images/restaurant.png</file>
+        <file>images/user.png</file>
+        <file>images/cutlery.png</file>
+        <file>images/mess_icon4.png</file>
+        <file>images/login.png</file>
+        <file>images/menu.png</file>
+        <file>images/shopping-cart-add.png</file>
+        <file>images/menu_2.png</file>
+        <file>images/shopping-cart.png</file>
+        <file>images/add_b.png</file>
+        <file>images/magic-wand.png</file>
+        <file>images/add3.png</file>
+        <file>images/cycle.png</file>
+        <file>images/data-recovery.png</file>
+        <file>images/shuffle.png</file>
+        <file>images/cash-on-delivery.png</file>
+        <file>images/money.png</file>
+        <file>images/money-flow.png</file>
+        <file>images/left-arrow.png</file>
+        <file>images/meal.png</file>
+        <file>images/driver-license.png</file>
+        <file>images/id.png</file>
+        <file>images/food-app.png</file>
+        <file>images/add-user.png</file>
+        <file>images/left.png</file>
+    </qresource>
+</RCC>
