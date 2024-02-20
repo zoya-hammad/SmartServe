@@ -73,28 +73,5 @@ Smart Serve addresses several critical issues in the current cafeteria system:
 - Implements a robust login system using the SHA-256 algorithm.
 - Stores relevant cafeteria data effectively within 8 data tables, linked schematically for efficient storage, retrieval, and maintenance.
 
-## Milestones
-
-1. **Database Schema Design**
-2. **Complete Database Creation**
-3. **Database Integration with Code**
-4. **Initial User and Admin Login Page**
-5. **Login Feature with Hashing**
-6. **GUI Integration and Development**
-7. **QR Code Generation with Custom Text**
-8. **Implementation of Node, Queue, Stack, Hash Table Classes**
-9. **User History Access**
-10. **User – Menu Filtering**
-11. **User – Meal Purchases**
-12. **User Access Portal Completion**
-13. **Analytics Dashboard**
-14. **Admin – Edit Menu**
-15. **Admin – Add User, Mess Points**
-16. **Admin – Create Meal Plan ID**
-17. **Admin Access Portal Completion**
-18. **UI Enhancement with HTML, CSS, and Icons**
-19. **Project Closure**
-
-
 ## Usage
 
