@@ -74,4 +74,6 @@ Smart Serve addresses several critical issues in the current cafeteria system:
 - Stores relevant cafeteria data effectively within 8 data tables, linked schematically for efficient storage, retrieval, and maintenance.
 
 ## Usage
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/4c289792-ea3b-4079-ab3c-843e8002ca0f)
+
 
