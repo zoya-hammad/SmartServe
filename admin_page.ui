@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_page</class>
+ <widget class="QDialog" name="admin_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Admin</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/images/mess_icon4.png</normaloff>:/images/mess_icon4.png</iconset>
+  </property>
+  <widget class="QCommandLinkButton" name="viewMenu">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>280</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC; /* Lighter Blue (for button) */
+    color: white; /* White text */
+    border: 1px solid #0066CC; /* Slight Blue border (match button color) */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 14px; /* Increased text size */
+    font-family: 'Tahoma', sans-serif; /* Different font */
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599; /* Slightly darker Blue on hover */
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080; /* Darker Blue when pressed */
+    border: 1px solid #004080; /* Slight Darker Blue border when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CHANGE MENU</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/cycle.png</normaloff>:/images/cycle.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="addUser">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC; /* Lighter Blue (for button) */
+    color: white; /* White text */
+    border: 1px solid #0066CC; /* Slight Blue border (match button color) */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 14px; /* Increased text size */
+    font-family: 'Tahoma', sans-serif; /* Different font */
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599; /* Slightly darker Blue on hover */
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080; /* Darker Blue when pressed */
+    border: 1px solid #004080; /* Slight Darker Blue border when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADD USER</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/add3.png</normaloff>:/images/add3.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="addMealPlan">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>190</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC; /* Lighter Blue (for button) */
+    color: white; /* White text */
+    border: 1px solid #0066CC; /* Slight Blue border (match button color) */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 14px; /* Increased text size */
+    font-family: 'Tahoma', sans-serif; /* Different font */
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599; /* Slightly darker Blue on hover */
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080; /* Darker Blue when pressed */
+    border: 1px solid #004080; /* Slight Darker Blue border when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>GENERATE MEAL PLAN ID</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/magic-wand.png</normaloff>:/images/magic-wand.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="userData">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>280</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC; /* Lighter Blue (for button) */
+    color: white; /* White text */
+    border: 1px solid #0066CC; /* Slight Blue border (match button color) */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 14px; /* Increased text size */
+    font-family: 'Tahoma', sans-serif; /* Different font */
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599; /* Slightly darker Blue on hover */
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080; /* Darker Blue when pressed */
+    border: 1px solid #004080; /* Slight Darker Blue border when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>USER DATA</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/data-recovery.png</normaloff>:/images/data-recovery.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="addMessPoints">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC; /* Lighter Blue (for button) */
+    color: white; /* White text */
+    border: 1px solid #0066CC; /* Slight Blue border (match button color) */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 14px; /* Increased text size */
+    font-family: 'Tahoma', sans-serif; /* Different font */
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599; /* Slightly darker Blue on hover */
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080; /* Darker Blue when pressed */
+    border: 1px solid #004080; /* Slight Darker Blue border when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADD MESS POINTS</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/money-flow.png</normaloff>:/images/money-flow.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Apply this style to any widget that contains text */
+QWidget {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Admin Portal</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

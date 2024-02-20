@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user_add_meal</class>
+ <widget class="QDialog" name="user_add_meal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Meal</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(240, 240, 240);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>271</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame:hover {
+    border: 1px solid #005599;
+}
+
+QFrame:focus {
+    border: 1px solid #004080;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="addCard">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0066CC;
+    color: white;
+    border: 1px solid #0066CC;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+QPushButton:hover {
+    background-color: #005599;
+}
+
+QPushButton:pressed {
+    background-color: #004080;
+    border: 1px solid #004080;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add to Mess Card</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Meal Id: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addMealPlan">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0066CC;
+    color: white;
+    border: 1px solid #0066CC;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Arial'
+}
+
+QPushButton:hover {
+    background-color: #005599;
+}
+
+QPushButton:pressed {
+    background-color: #004080;
+    border: 1px solid #004080;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add to Meal Plan</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_id">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: 1px solid #0066CC;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-family: 'Arial';
+}
+
+QLineEdit:hover {
+    border: 1px solid #005599;
+}
+
+QLineEdit:focus {
+    border: 1px solid #004080;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="backButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>51</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="img.qrc">
+      <normaloff>:/images/left.png</normaloff>:/images/left.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>80</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView {
+    alternate-background-color: #E6F7FF;
+    gridline-color: #B0B0B0;
+}
+
+QTableView:hover {
+    border: 1px solid #0066CC;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="menu">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>510</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCommandLinkButton {
+    background-color: #0066CC;
+    color: white;
+    border: 1px solid #0066CC;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+QCommandLinkButton:hover {
+    background-color: #005599;
+}
+
+QCommandLinkButton:pressed {
+    background-color: #004080;
+    border: 1px solid #004080;
+}</string>
+   </property>
+   <property name="text">
+    <string>View Menu</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/menu_2.png</normaloff>:/images/menu_2.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-size: 24px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Add Meal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/images/meal.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

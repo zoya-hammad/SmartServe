@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user_view_menu</class>
+ <widget class="QDialog" name="user_view_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgb(240, 240, 240);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Meal Type: </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="displayMenu">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>370</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #0066CC;
+    color: white;
+    border: 1px solid #0066CC;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+QPushButton:hover {
+    background-color: #005599;
+}
+
+QPushButton:pressed {
+    background-color: #004080;
+    border: 1px solid #004080;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Display Menu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>120</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Price Limit:</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="priceSlider">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>190</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #B0B0B0; /* Groove border color */
+    background: #F0F0F0; /* Groove background color */
+    height: 8px; /* Groove height */
+    margin: 2px 0; /* Margin around the groove */
+}
+
+QSlider::handle:horizontal {
+    background: #0066CC; /* Handle background color */
+    border: 1px solid #0066CC; /* Handle border color */
+    width: 14px; /* Handle width */
+    height: 14px; /* Handle height */
+    margin: -6px 0; /* Margin around the handle */
+    border-radius: 7px; /* Handle border radius to make it circular */
+}
+
+QSlider::handle:horizontal:hover {
+    background: #005599; /* Handle background color on hover */
+    border: 1px solid #005599; /* Handle border color on hover */
+}
+
+QSlider::sub-page:horizontal {
+    background: #0066CC; /* Color of the portion of the groove where the slider has value */
+}
+
+QSlider::add-page:horizontal {
+    background: #B0B0B0; /* Color of the portion of the groove where the slider doesn't have value */
+}
+</string>
+   </property>
+   <property name="minimum">
+    <number>50</number>
+   </property>
+   <property name="maximum">
+    <number>500</number>
+   </property>
+   <property name="singleStep">
+    <number>10</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="invertedControls">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="priceLabel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Price</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>131</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QCheckBox" name="breakfastCheckBox">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 2px solid #0066CC;
+    background-color: white;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 2px solid #005599;
+}
+
+QCheckBox::indicator:checked {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:indeterminate:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled,
+QCheckBox::indicator:unchecked:disabled,
+QCheckBox::indicator:indeterminate:disabled {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:indeterminate:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:checked:pressed,
+QCheckBox::indicator:unchecked:pressed,
+QCheckBox::indicator:indeterminate:pressed {
+    border: 2px solid #004080;
+}
+
+QCheckBox::indicator:checked:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled:hover,
+QCheckBox::indicator:unchecked:disabled:hover,
+QCheckBox::indicator:indeterminate:disabled:hover {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Breakfast</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="lunchCheckBox">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 2px solid #0066CC;
+    background-color: white;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 2px solid #005599;
+}
+
+QCheckBox::indicator:checked {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:indeterminate:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled,
+QCheckBox::indicator:unchecked:disabled,
+QCheckBox::indicator:indeterminate:disabled {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:indeterminate:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:checked:pressed,
+QCheckBox::indicator:unchecked:pressed,
+QCheckBox::indicator:indeterminate:pressed {
+    border: 2px solid #004080;
+}
+
+QCheckBox::indicator:checked:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled:hover,
+QCheckBox::indicator:unchecked:disabled:hover,
+QCheckBox::indicator:indeterminate:disabled:hover {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Lunch</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="dinnerCheckBox">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 2px solid #0066CC;
+    background-color: white;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 2px solid #005599;
+}
+
+QCheckBox::indicator:checked {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:indeterminate:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled,
+QCheckBox::indicator:unchecked:disabled,
+QCheckBox::indicator:indeterminate:disabled {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:indeterminate:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:checked:pressed,
+QCheckBox::indicator:unchecked:pressed,
+QCheckBox::indicator:indeterminate:pressed {
+    border: 2px solid #004080;
+}
+
+QCheckBox::indicator:checked:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled:hover,
+QCheckBox::indicator:unchecked:disabled:hover,
+QCheckBox::indicator:indeterminate:disabled:hover {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Dinner</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="drinksCheckBox">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    spacing: 5px; 
+}
+QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 2px solid #0066CC;
+    background-color: white;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 2px solid #005599;
+}
+
+QCheckBox::indicator:checked {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate {
+    border: 2px solid #0066CC;
+    background-color: #0066CC;
+}
+
+QCheckBox::indicator:indeterminate:hover {
+    border: 2px solid #004080;
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled,
+QCheckBox::indicator:unchecked:disabled,
+QCheckBox::indicator:indeterminate:disabled {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:indeterminate:disabled {
+    background-color: #B0B0B0;
+}
+
+QCheckBox::indicator:checked:pressed,
+QCheckBox::indicator:unchecked:pressed,
+QCheckBox::indicator:indeterminate:pressed {
+    border: 2px solid #004080;
+}
+
+QCheckBox::indicator:checked:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+    background-color: #004080;
+}
+
+QCheckBox::indicator:checked:disabled:hover,
+QCheckBox::indicator:unchecked:disabled:hover,
+QCheckBox::indicator:indeterminate:disabled:hover {
+    border: 2px solid #B0B0B0;
+    background-color: #F0F0F0;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Drinks</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/images/menu_2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-size: 24px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>View Menu</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>390</y>
+     <width>51</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/images/left.png</normaloff>:/images/left.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>label</zorder>
+  <zorder>displayMenu</zorder>
+  <zorder>label_2</zorder>
+  <zorder>priceSlider</zorder>
+  <zorder>priceLabel</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_3</zorder>
+  <zorder>backButton</zorder>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
