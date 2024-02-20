@@ -18,25 +18,25 @@ This desktop app aims to provide user and admin functionality for a cafeteria ap
 Smart Serve addresses several critical issues in the current cafeteria system:
 
 1. **Absence of a Digital Ticketing System:**
-   - Manual order placement and paper tokens for verification lead to potential errors and delays.
+    Manual order placement and paper tokens for verification lead to potential errors and delays.
    
 2. **Limited User Access to Records:**
-   - Users lack access to data regarding previously purchased meals, hindering transparency.
+   Users lack access to data regarding previously purchased meals, hindering transparency.
 
 3. **Dependence on Cash Transactions:**
-   - Inconvenience for students who need cash, leading to limited accessibility.
+   Inconvenience for students who need cash, leading to limited accessibility.
 
 4. **Lack of Timestamps on Receipts:**
-   - Handwritten receipts without timestamps can lead to disputes over wait times.
+    Handwritten receipts without timestamps can lead to disputes over wait times.
 
 5. **Lack of Price Transparency:**
-   - Price of menu items not displayed, causing stress for customers and increased workload for staff.
+   The price of menu items is not displayed, causing stress for customers and increased workload for staff.
 
 6. **Manual Data Calculation:**
-   - Data stored on paper, hindering digital analysis for informed decisions.
+   Data is stored on paper, hindering digital analysis for informed decisions.
 
 7. **Lack of Data Security:**
-   - Customer purchases and active meal plans not backed up, posing a risk of data loss.
+   Customer purchases and active meal plans are not backed up, posing a risk of data loss.
 
 ## Deliverables
 
