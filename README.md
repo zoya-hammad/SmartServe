@@ -45,10 +45,10 @@ Smart Serve addresses several critical issues in the current cafeteria system:
 - Generates a QR code for order verification.
 
 ### 2. User Access Portal
-- Allows users to manage meal plans, view and filter the menu, purchase orders, and navigate transaction history.
+- Allows users to manage meal plans, view and filter the menu, purchase orders, navigate transaction history, and submit feedback.
 
 ### 3. Admin Access Portal
-- Provides administrators with tools to manage user accounts, create/modify meal plans, add funds to student cards, edit menu items, and access analytics.
+- Provides administrators with tools to manage user accounts, create/modify meal plans, add funds to student cards, edit menu items, access/filter feedback and access analytics.
 
 ### 4. Alternative Payment Integration
 - Integrates a virtual wallet for seamless and secure digital transactions.
