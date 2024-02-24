@@ -85,8 +85,26 @@ Before running the application, make sure you have the following prerequisites i
 
 ### Clone the repository
 ### Create database tables with defined relationship
+
+- Ensure your MySQL database server is running.
+- Create a new database for Smart Serve.
+- Create tables based on Entity Relationship Diagram
+  
 ### Open the project in QT Creator, adding necessary files to pro file
+
+- Launch QT Creator.
+- Click on File > Open File or Project.
+- Navigate to the cloned SmartServe repository and open the project file
+
 ### Configure database connection
+
+- Open dbhandler.cpp in the src directory.
+- Update the database connection settings with your MySQL credentials.
+  
 ### Build and run the project
+
+- Build the project using QT Creator.
+- Run the application.
+- If application doesn't run, try cleaning the project
 
 
