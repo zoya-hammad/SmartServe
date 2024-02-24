@@ -74,6 +74,19 @@ Smart Serve addresses several critical issues in the current cafeteria system:
 - Stores relevant cafeteria data effectively within 8 data tables, linked schematically for efficient storage, retrieval, and maintenance.
 
 ## Usage
-![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/4c289792-ea3b-4079-ab3c-843e8002ca0f)
+
+### Prerequisites
+
+Before running the application, make sure you have the following prerequisites installed:
+
+- [QT Creator]: Ensure you have QT Creator installed.
+- [MySQL Database]: Set up a MySQL database with the necessary tables for Smart Serve.
+- [Qt-QrCodeGenerator]: Install the QR code generator library.
+
+### Clone the repository
+### Create database tables with defined relationship
+### Open the project in QT Creator, adding necessary files to pro file
+### Configure database connection
+### Build and run the project
 
 
