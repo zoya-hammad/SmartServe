@@ -108,6 +108,23 @@ Before running the application, make sure you have the following prerequisites i
 
 - Build the project using QT Creator.
 - Run the application.
-- If application doesn't run, try cleaning the project
+- If the application doesn't run, try cleaning the project
 
+
+## Interface
+
+### Overview of Main Interface
+![Screenshot 2024-02-24 104408](https://github.com/zoya-hammad/SmartServe/assets/116413504/3ef7ab1d-ec09-4bdf-9450-e2d69f4fa11e)
+
+### User and Admin Login Screens
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/4f815173-ff4a-418a-9f4a-3cdc039ca5d6)
+
+
+### User and Admin Access Portals
+
+
+### User Features
+
+
+### Admin Features
 
