@@ -119,12 +119,12 @@ Before running the application, make sure you have the following prerequisites i
 ### User and Admin Login Screens
 ![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/4f815173-ff4a-418a-9f4a-3cdc039ca5d6)
 
-
 ### User and Admin Access Portals
-
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/30ff8ebc-edda-4408-ae12-068c5bcbf938)
 
 ### User Features
-
+-- screenshots to be added
 
 ### Admin Features
+-- screenshots to be added
 
