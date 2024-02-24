@@ -124,10 +124,14 @@ Before running the application, make sure you have the following prerequisites i
 
 ### User Features
 ![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/902cd437-c913-47d0-b53b-9fd2afa14c7e)
-![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/a0607d8f-01df-4c06-926c-e6239aa78fe0)
-
-
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/425cda6a-45b5-4ff2-be44-265ec0a33745)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/eec4f06e-51a6-485e-87ef-4d4c1926fdc9)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/741213aa-f8b1-4b1a-85dd-abc7270da806)
 
 ### Admin Features
--- screenshots to be added
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/1f082dd6-d73f-4d5d-9a0b-a8c470db01e4)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/9c03682c-2878-4dab-be2c-90282e4aac24)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/d1c016bf-7d8f-46c6-a4fb-65c4daf8f6a9)
+
+
 
