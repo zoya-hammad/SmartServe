@@ -84,6 +84,9 @@ Before running the application, make sure you have the following prerequisites i
 - [Qt-QrCodeGenerator]: Install the QR code generator library.
 
 ### Clone the repository
+
+- git clone https://github.com/zoya-hammad/SmartServe.git
+  
 ### Create database tables with defined relationship
 
 - Ensure your MySQL database server is running.
