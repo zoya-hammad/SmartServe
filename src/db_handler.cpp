@@ -8,7 +8,7 @@
 db_handler::db_handler()
 {
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("C:/Users/92310/Downloads/cafe.db");
+    db.setDatabaseName("add db address");
 
     if (!db.open()) {
         qDebug() << "Error opening the database:" << db.lastError().text();
