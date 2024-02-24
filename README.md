@@ -120,7 +120,7 @@ Before running the application, make sure you have the following prerequisites i
 ![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/4f815173-ff4a-418a-9f4a-3cdc039ca5d6)
 
 ### User and Admin Access Portals
-![Screenshot 2024-02-24 110636](https://github.com/zoya-hammad/SmartServe/assets/116413504/2734240b-14be-4eba-ba3a-5de10153fcd7)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/50526abf-1a43-4289-867e-1b5aee2f85d1)
 
 ### User Features
 -- screenshots to be added
