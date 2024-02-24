@@ -123,7 +123,10 @@ Before running the application, make sure you have the following prerequisites i
 ![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/50526abf-1a43-4289-867e-1b5aee2f85d1)
 
 ### User Features
--- screenshots to be added
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/902cd437-c913-47d0-b53b-9fd2afa14c7e)
+![image](https://github.com/zoya-hammad/SmartServe/assets/116413504/a0607d8f-01df-4c06-926c-e6239aa78fe0)
+
+
 
 ### Admin Features
 -- screenshots to be added
