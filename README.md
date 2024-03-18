@@ -79,9 +79,9 @@ Smart Serve addresses several critical issues in the current cafeteria system:
 
 Before running the application, make sure you have the following prerequisites installed:
 
-- [QT Creator]: Ensure you have QT Creator installed.
-- [MySQL Database]: Set up a MySQL database with the necessary tables for Smart Serve.
-- [Qt-QrCodeGenerator]: Install the QR code generator library.
+- QT Creator: Ensure you have QT Creator installed.
+- MySQL Database: Set up a MySQL database with the necessary tables for Smart Serve.
+- Qt-QrCodeGenerator: Install the QR code generator library.
 
 ### Clone the repository
 
